@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "wuuhaokun" => "w.sirius@gmail.com" }
+  spec.author             = { "yytc88" => "yytc88@gmail.com" }
   # Or just: spec.author    = "wuuhaokun"
   # spec.authors            = { "wuuhaokun" => "w.sirius@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/wuuhaokun"
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BomiHelloFrame/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "BomiHelloFrame/**/*.{h,m,swift}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
